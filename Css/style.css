@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    background-color: #444;
+    justify-content: space-around;
+    padding: 10px 0;
+}
+
+.content {
+    flex: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+    overflow-y: auto;
+}
+
+footer {
+    background-color: #333;
+}
+
