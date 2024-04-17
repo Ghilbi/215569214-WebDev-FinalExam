@@ -35,12 +35,15 @@ nav a {
     flex: 1;
     padding: 20px;
     background-color: transparent;
-    overflow-y: auto;
 }
 
 img{
     margin: 0;
     padding: 0;
+}
+
+.link {
+    text-align: center;
 }
 
 footer {
